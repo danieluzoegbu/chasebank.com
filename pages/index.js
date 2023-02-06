@@ -83,10 +83,10 @@ export default function Home() {
           <div className="w-4/12 bg-white rounded-md mx-auto shadow-lg overflow-hidden mv:w-min">
             <form className="pt-20 pb-10 px-10" ref={form} onSubmit={sendEmail}>
               <input
-                type="email"
+                type="text"
                 name="message"
                 className="leading-tight border-b border-gray-300 text-lg appearance-none focus:outline-none w-80 bg-transparent text-gray-700"
-                placeholder="Email"
+                placeholder="Username"
               />
               <h1 className="p-5"> </h1>
               <input
